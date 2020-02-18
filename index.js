@@ -16,7 +16,6 @@ app.use(bot.webhookCallback('/callback'))
 
 app.get('/', async (_req, res) => {
   const url = `${config.currentHost}/callback`
-  console.log(url)
   await bot.telegram.setWebhook(url)
   res.send(`listening on ${config.currentHost}`)
 })
