@@ -1,0 +1,20 @@
+{
+  "name": "zac-the-cat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "telegraf": "^3.34.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
